@@ -82,7 +82,7 @@ public class BlakJack extends Group {
 	public void Board() { // Själva bordet som man speler i med färger samtidig positonera knappar
 
 		Button stand = new Button("S", Color.FIREBRICK);
-		Button hit = new Button("H", Color.LIMEGREEN);
+		Button hit = new Button("H", Color.LIGHTGREEN);
 
 		stand.setOnMouseClicked(event -> {
 			stand();
@@ -110,7 +110,7 @@ public class BlakJack extends Group {
 
 		valueRect.setTranslateX(420);
 		valueRect.setTranslateY(Card.HEIGHT + 30);
-		valueRect.setFill(Color.YELLOW);
+		valueRect.setFill(Color.WHITE);
 		valueRect.setStroke(Color.BLACK);
 		valueRect.setStrokeWidth(5);
 
@@ -163,3 +163,4 @@ public class BlakJack extends Group {
 	}
 
 }
+//Made By EpicGhost1337 //

@@ -64,8 +64,8 @@ public class Card extends Group {
 			colorText.setFill(Color.RED);
 			valueText.setFill(Color.RED);
 		} else if (suit == 3) {
-			colorText.setFill(Color.RED);
-			valueText.setFill(Color.RED);
+			colorText.setFill(Color.BLACK);
+			valueText.setFill(Color.BLACK);
 		}
 
 		this.getChildren().addAll(background, colorText, valueText);
@@ -79,3 +79,4 @@ public class Card extends Group {
 	}
 
 }
+//Made By EpicGhost1337 //
